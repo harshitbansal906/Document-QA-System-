@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+uploads/
+vector_store/
+
+# Ignore Hugging Face cached models and lock files
+models/*
+!models/.gitkeep
